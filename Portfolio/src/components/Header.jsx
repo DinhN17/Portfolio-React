@@ -1,4 +1,3 @@
-import React from 'react';
 import avatarIMG from "../assets/images/Avatar2.PNG"
 export default function Header() {
     return (

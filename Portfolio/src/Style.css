@@ -81,7 +81,7 @@ h1 {
 }
 
 h2 {
-  min-width: 102px;
+  min-width: 137px;
   text-align: end;
   border-right: solid var(--cloud-burst);
   border-radius: 0;
@@ -167,6 +167,11 @@ ul {
 .fa-github {
   background: var(--akaroa);
   color: var(--cloud-burst);
+}
+
+.fa-github-card {
+  background: inherit;
+  color: inherit;
 }
 
 .fa-envelope-o {

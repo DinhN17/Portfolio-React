@@ -7,6 +7,8 @@ import './index.css';
 // Pages for the router use
 import App from './App';
 import AboutMe from './pages/AboutMe';
+import Portfolio from './pages/Portfolio';
+import Education from './pages/Education';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 // Router
@@ -21,8 +23,16 @@ const router = new createBrowserRouter([
         element: <AboutMe />
       },
       {
-        path: '/about',
+        path: '/aboutMe',
         element: <AboutMe />
+      },
+      {
+        path: '/portfolio',
+        element: <Portfolio />
+      },
+      {
+        path: '/education',
+        element: <Education />
       }
     ]
   }

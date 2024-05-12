@@ -8,10 +8,10 @@ export default function Header() {
                 <h1>Dinh Nguyen</h1>
             </div>
             <nav>
-                <a href="#About-me">About me</a>
-                <a href="#Work">Work</a>
-                <a href="#Education">Education</a>
-                <a href="#Contact">Contact</a>
+                <a href="/aboutMe">About me</a>
+                <a href="/works">Work</a>
+                <a href="/education">Education</a>
+                <a href="/contact">Contact</a>
             </nav>
         </header>
     );

@@ -8,11 +8,11 @@ export default function Header() {
                 <h1>Dinh Nguyen</h1>
             </div>
             <nav>
-                <a href="/aboutMe">About me</a>
+                <Link to="/aboutMe">About me</Link>
                 <Link to="/portfolio">Portfolio</Link>
-                <a href="/education">Education</a>
-                <a href="/contact">Contact</a>
+                <Link to="/education">Education</Link>
+                <Link to="/contact">Contact</Link>
             </nav>
         </header>
     );
-};
+}

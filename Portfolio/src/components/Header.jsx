@@ -1,4 +1,5 @@
-import avatarIMG from "../assets/images/Avatar2.PNG"
+import avatarIMG from "../assets/images/Avatar2.PNG";
+import { Link } from "react-router-dom";
 export default function Header() {
     return (
         <header>
@@ -8,10 +9,10 @@ export default function Header() {
             </div>
             <nav>
                 <a href="/aboutMe">About me</a>
-                <a href="/portfolio">Portfolio</a>
+                <Link to="/portfolio">Portfolio</Link>
                 <a href="/education">Education</a>
                 <a href="/contact">Contact</a>
             </nav>
         </header>
     );
-}
+};

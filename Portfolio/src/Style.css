@@ -119,10 +119,19 @@ a {
   color: inherit;
   font-weight: bold;
 }
+
 a:hover {
   text-shadow: 3px 3px 5px var(--orange);
 }
 
+.btn {
+  color: inherit;
+  font-weight: bold;
+}
+
+.btn:hover {
+  text-shadow: 3px 3px 5px var(--orange);
+}
 nav {
   margin-top: 50px;
   color: var(--akaroa);

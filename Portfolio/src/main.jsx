@@ -8,6 +8,7 @@ import App from './App';
 import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import Education from './pages/Education';
+import Contact from './pages/Contact';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 // Router
@@ -32,6 +33,10 @@ const router = new createBrowserRouter([
       {
         path: '/education',
         element: <Education />
+      },
+      {
+        path: '/contact',
+        element: <Contact />
       }
     ]
   }

@@ -12,7 +12,25 @@ const getProjects = () => {
     return {
         data: [
             {
-                id: 1,
+                id: 2,
+                title: "GoalGetter",
+                description: "Climb mountains and conquer milestones with this goal setting application.",
+                image: "https://github.com/zaczacariah/GoalGetter/blob/main/public/images/overview-sal.png?raw=true",
+                link: "https://aqueous-scrubland-14072-c1a72f47fd0b.herokuapp.com/",
+                githubLink: "https://github.com/zaczacariah/GoalGetter"
+
+            },
+            {
+                id: 3,
+                title: "Crypto Bazaar",
+                description: "a platform where individuals can buy crypto currencies and NFT's online, and track their purchases in the wallet section of our site.",
+                image: "https://github.com/mattkellyirl/crypto-bazaar/assets/152781829/3a9e43c9-d0f9-4095-8bdb-d77f97fc072b",
+                link: "https://mattkellyirl.github.io/crypto-bazaar/",
+                githubLink: "https://mattkellyirl.github.io/crypto-bazaar/"
+
+            },
+            {
+                id: 4,
                 title: "Text Editor",
                 description: "Text Editor is a web application for editing text which can run offline, powered by Express.js, idb and webpack-pwa-manifest.",
                 image: textEditorImage,
@@ -21,7 +39,7 @@ const getProjects = () => {
 
             },
             {
-                id: 2,
+                id: 5,
                 title: "Employee Tracker",
                 description: "Employee tracker is a command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL.",
                 image: employeeTrackerImage,
@@ -29,7 +47,7 @@ const getProjects = () => {
                 githubLink: "https://github.com/DinhN17/Employee-Tracker"
             },
             {
-                id: 3,
+                id: 6,
                 title: "Tech Blog",
                 description: "A CMS-style blog site where user can publish their blog posts and comment on other users’ posts as well.",
                 image: techBlogImage,
@@ -37,7 +55,7 @@ const getProjects = () => {
                 githubLink: "https://github.com/DinhN17/Tech-Blog"
             },
             {
-                id: 4,
+                id: 7,
                 title: "Note Taker",
                 description: "A webpage to save and keep notes using nodejs and express as backend.",
                 image: noteTakerImage,
@@ -45,7 +63,7 @@ const getProjects = () => {
                 githubLink: "https://github.com/DinhN17/Note-Taker"
             },
             {
-                id: 5,
+                id: 8,
                 title: "Weather Dashboard",
                 description: "A webpage to search 5-day weather forecast.",
                 image: weatherDashboardImage,
@@ -53,7 +71,7 @@ const getProjects = () => {
                 githubLink: "https://github.com/DinhN17/Weather-Dashboard"
             },
             {
-                id: 6,
+                id: 9,
                 title: "E-Commerce Backend",
                 description: "E-Commerce Back End is a back end for an e-commerce site, using an Express.js API to use Sequelize to interact with a MySQL database.",
                 image: eCommerceBackEndImage,

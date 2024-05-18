@@ -43,7 +43,7 @@ const getProjects = () => {
                 title: "Employee Tracker",
                 description: "Employee tracker is a command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL.",
                 image: employeeTrackerImage,
-                link: "",
+                link: "https://github.com/DinhN17/Employee-Tracker",
                 githubLink: "https://github.com/DinhN17/Employee-Tracker"
             },
             {
@@ -75,7 +75,7 @@ const getProjects = () => {
                 title: "E-Commerce Backend",
                 description: "E-Commerce Back End is a back end for an e-commerce site, using an Express.js API to use Sequelize to interact with a MySQL database.",
                 image: eCommerceBackEndImage,
-                link: "",
+                link: "https://github.com/DinhN17/eCommerce-Back-End",
                 githubLink: "https://github.com/DinhN17/eCommerce-Back-End"
             }
         ]

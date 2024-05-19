@@ -9,6 +9,7 @@ import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import Education from './pages/Education';
 import Contact from './pages/Contact';
+import NotFound from './pages/NotFound';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 // Router
@@ -16,7 +17,7 @@ const router = new createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    // errorElement: <ErrorPage />,
+    errorElement: <NotFound />,
     children: [
       {
         index: true,

@@ -6,11 +6,21 @@ import employeeTrackerImage from "../assets/images/EmployeeTracker.PNG";
 import textEditorImage from "../assets/images/TextEditor.PNG";
 import techBlogImage from "../assets/images/TechBlog.PNG";
 import eCommerceBackEndImage from "../assets/images/eCommerceBackend.PNG";
+import shopMateImage from "../assets/images/ShopMate.PNG";
 
 
 const getProjects = () => {
     return {
         data: [
+            {
+                id: 1,
+                title: "Shop Mate",
+                description: "ShopMate simplifies your shopping experience by keeping all your lists organised and accessible wherever you go and whatever device you have.",
+                image: shopMateImage,
+                link: "https://limitless-meadow-75906-eea46bc8be0c.herokuapp.com/",
+                githubLink: "https://github.com/DinhN17/Shop-Mate"
+
+            },
             {
                 id: 2,
                 title: "GoalGetter",

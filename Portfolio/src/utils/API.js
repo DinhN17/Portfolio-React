@@ -7,6 +7,7 @@ import textEditorImage from "../assets/images/TextEditor.PNG";
 import techBlogImage from "../assets/images/TechBlog.PNG";
 import eCommerceBackEndImage from "../assets/images/eCommerceBackend.PNG";
 import shopMateImage from "../assets/images/ShopMate.PNG";
+import socialNetworkAPIImage from "../assets/images/network-4636686_1280.jpg";
 
 
 const getProjects = () => {
@@ -41,11 +42,10 @@ const getProjects = () => {
             },
             {
                 id: 4,
-                title: "Text Editor",
-                description: "Text Editor is a web application for editing text which can run offline, powered by Express.js, idb and webpack-pwa-manifest.",
-                image: textEditorImage,
-                link: "https://text-editor-v5vs.onrender.com/",
-                githubLink: "https://github.com/DinhN17/Text-Editor"
+                title: "Social Network API",
+                description: "An API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.",
+                image: socialNetworkAPIImage,
+                githubLink: "https://github.com/DinhN17/Social-Network-API"
 
             },
             {
